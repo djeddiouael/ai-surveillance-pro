@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Surveillance Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #0f172a;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .box {
+            background: #1e293b;
+            padding: 15px;
+            border-radius: 10px;
+            height: 400px;
+            overflow-y: scroll;
+        }
+
+        h2 {
+            border-bottom: 1px solid gray;
+            padding-bottom: 10px;
+        }
+
+        .log {
+            font-size: 14px;
+            color: #38bdf8;
+        }
+
+        .video {
+            padding: 5px;
+            background: #334155;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        .status {
+            padding: 10px;
+            background: #22c55e;
+            display: inline-block;
+            border-radius: 5px;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    🧠 AI Surveillance PRO Dashboard
+</header>
+
+<div class="container">
+
+    <!-- LOGS -->
+    <div class="box">
+        <h2>📊 Logs</h2>
+
+        {% for log in logs %}
+            <div class="log">{{ log }}</div>
+        {% endfor %}
+    </div>
+
+    <!-- RECORDINGS -->
+    <div class="box">
+        <h2>🎥 Recorded Events</h2>
+
+        {% for video in videos %}
+            <div class="video">📁 {{ video }}</div>
+        {% endfor %}
+    </div>
+
+</div>
+
+</body>
+</html>
