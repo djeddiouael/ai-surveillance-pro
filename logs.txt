@@ -32,3 +32,10 @@
 2026-04-10 22:59:02.733439 - ALERT: Crowd detected
 2026-04-10 22:59:07.044924 - ALERT: Crowd detected
 2026-04-10 22:59:07.435738 - ALERT: Crowd detected
+2026-04-10 23:20:46.799058 - ALERT: Crowd detected
+2026-04-10 23:20:49.179370 - ALERT: Crowd detected
+2026-04-10 23:20:52.488538 - ALERT: Crowd detected
+2026-04-10 23:20:53.252508 - ALERT: Crowd detected
+2026-04-10 23:20:55.578569 - ALERT: Crowd detected
+2026-04-10 23:20:56.353831 - ALERT: Crowd detected
+2026-04-10 23:20:56.949467 - ALERT: Crowd detected
